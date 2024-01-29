@@ -1,0 +1,10 @@
+{
+  "employees": [
+    { "name": "John Smith", "department": "Finance", "position": "Manager" },
+    { "name": "Jane Doe", "department": "IT", "position": "Developer" },
+    { "name": "Emily Davis", "department": "Marketing", "position": "Analyst" }
+  ],
+  "company": "Tech Solutions",
+  "location": "New York",
+  "founded": 2001
+}
