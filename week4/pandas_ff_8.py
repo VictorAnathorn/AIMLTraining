@@ -1,16 +1,13 @@
 import pandas as pd
 
 data = {
-
-    'Title': ['Inception', 'Dunkirk', 'Interstellar', 'The Prestige', 'Memento'],
-
-    'Director': ['Christopher Nolan', 'Christopher Nolan', 'Christopher Nolan', 'Christopher Nolan', 'Christopher Nolan'],
-
-    'Rating': [8.8, 7.9, 8.6, 8.5, 8.4]
-
+    'Product': ['A', 'B', 'C', 'A', 'B', 'C'],
+    'Price': [100, 200, 300, 150, 250, 350],
+    'Quantity': [10, 5, 7, 12, 8, 5]
 }
-
 
 df = pd.DataFrame(data)
 
-print(df[df['Director'] == 'Christopher Nolan']['Rating'].mean())
+total_revenue = (df['Price'] * df['Quantity']).sum()
+average_price = df['Price'].mean()
+print(total_revenue, average_price)
