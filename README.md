@@ -1,6 +1,6 @@
 # Machine Learning and AI Course
 
-This repository contains all my work for the Machine Learning and AI course, including weekly notes, assignments, code, and project materials. I will be using macOS
+This repository contains all my work for the Machine Learning and AI course, assignments, code, and sample data. I will be using macOS
 
 ## Installation
 
