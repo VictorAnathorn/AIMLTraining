@@ -2,14 +2,6 @@
 
 This repository contains all my work for the Machine Learning and AI course, including weekly notes, assignments, code, and project materials. I will be using macOS
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Recommended IDE](#recommended-ide)
-- [Weeks](#weeks)
-- [Projects](#projects)
-- [Resources](#resources)
-
 ## Installation
 
 #### Homebrew
