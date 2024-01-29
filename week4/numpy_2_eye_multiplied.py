@@ -1,11 +1,17 @@
 import numpy as np
 
-# Create two 3x3 matrices filled with random integers between 1 and 100.
+# Create a 5x5 identity matrix and add 5 to it
+identity_matrix = np.eye(5)
+result_matrix = identity_matrix + 5
+print("Resulting Matrix:\n", result_matrix)
 
-matrix1 = np.random.randint(1, 101, (3, 3))
+# Create a 5x1 column vector with random integers between 1 and 10
+column_vector = np.random.randint(1, 11, (5, 1))
+print("Column Vector:", column_vector)
 
-matrix2 = np.random.randint(1, 101, (3, 3))
+# Multiply the result_matrix with the column_vector
+result_vector = np.dot(result_matrix, column_vector)
 
-# Compute their element-wise multiplication, and print the resulting matrix.
-
-print(matrix1*matrix2)
+# Print the resulting vector
+print("Resulting Vector:")
+print(result_vector)

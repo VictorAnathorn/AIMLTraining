@@ -1,11 +1,15 @@
 import numpy as np
 
-A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+# Create a 5x5 matrix filled with random floats between 0 and 1.
 
-B = A[1:3, 0:2]
+arr = np.random.rand(5, 5)
 
+# Replace the maximum value in the matrix with 0 and Print the original and modified matrices.
 
-B[0, 0] = 100
+print("Unmodified matrix", arr)
 
-print(B)
-print(A)
+max_index = np.unravel_index(np.argmax(arr), arr.shape)
+
+arr[max_index] = 0
+
+print("Modified matrix", arr)
